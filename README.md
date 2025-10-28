@@ -35,6 +35,7 @@ cybersec/
     │
     ├── network/                 # ✅ Networking e Configuração de Rede
     │   ├── Modelos de Rede: OSI e TCP-IP.md
+    │   ├── Protocolos de Rede - Guia Técnico para CyberSecurity.md ⭐ NOVO
     │   ├── Configuração de Rede no Linux.md
     │   ├── Ferramentas de Rede no Debian.md
     │   └── Acesso Remoto ao Linux.md
@@ -55,14 +56,15 @@ cybersec/
 
 ### 🌐 Networking (Disponível)
 
-Documentação completa sobre redes no Linux com **~6500 linhas** de conteúdo técnico.
+Documentação completa sobre redes no Linux focada em **cybersecurity**.
 
-| Documento | Linhas | Descrição |
-|-----------|--------|-----------|
-| [Modelos OSI/TCP-IP](./linux/network/Modelos%20de%20Rede%3A%20OSI%20e%20TCP-IP.md) | ~1600 | Teoria + prática dos modelos de rede (camada 1-7) |
-| [Configuração de Rede](./linux/network/Configuração%20de%20Rede%20no%20Linux.md) | ~1730 | Ethernet, Wi-Fi, DHCP, IP estático, VLANs, bridges |
-| [Ferramentas de Rede](./linux/network/Ferramentas%20de%20Rede%20no%20Debian.md) | ~1700 | 20+ ferramentas com exemplos práticos |
-| [Acesso Remoto](./linux/network/Acesso%20Remoto%20ao%20Linux.md) | ~1500 | SSH, VNC, RDP, X11, tunneling |
+| Documento | Descrição |
+|-----------|-----------|
+| [Modelos OSI/TCP-IP](./linux/network/Modelos%20de%20Rede%3A%20OSI%20e%20TCP-IP.md) | Teoria + prática dos modelos de rede (camada 1-7) |
+| [Protocolos de Rede](./linux/network/Protocolos%20de%20Rede%20-%20Guia%20Técnico%20para%20CyberSecurity.md) | ⭐ **NOVO!** Protocolos detalhados com foco em segurança |
+| [Configuração de Rede](./linux/network/Configuração%20de%20Rede%20no%20Linux.md) | Ethernet, Wi-Fi, DHCP, IP estático, VLANs, bridges |
+| [Ferramentas de Rede](./linux/network/Ferramentas%20de%20Rede%20no%20Debian.md) | 20+ ferramentas com exemplos práticos |
+| [Acesso Remoto](./linux/network/Acesso%20Remoto%20ao%20Linux.md) | SSH, VNC, RDP, X11, tunneling |
 
 [📖 Ver índice completo de Networking →](./linux/network/README.md)
 
@@ -266,19 +268,6 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 - [r/linuxadmin](https://reddit.com/r/linuxadmin)
 - [r/cybersecurity](https://reddit.com/r/cybersecurity)
 - [Linux Questions](https://www.linuxquestions.org/)
-
----
-
-## 📊 Estatísticas
-
-| Área | Status | Documentos | Linhas |
-|------|--------|------------|--------|
-| Networking | ✅ | 4 | ~6500 |
-| Storage | 🚧 | - | - |
-| Access Mgmt | 🚧 | - | - |
-| Virtualization | 🚧 | - | - |
-| Security | 🚧 | - | - |
-| **Total** | - | **4** | **~6500** |
 
 ---
 

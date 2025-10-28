@@ -75,6 +75,28 @@ Guia completo sobre todas as formas de acesso remoto a sistemas Linux:
 - Comparação de métodos
 - Segurança e boas práticas
 
+### 5. [Protocolos de Rede - Guia Técnico para CyberSecurity](./Protocolos%20de%20Rede%20-%20Guia%20Técnico%20para%20CyberSecurity.md) ⭐ **NOVO**
+Documentação técnica detalhada dos principais protocolos de rede com foco em **segurança cibernética**:
+- **Camada de Rede (Layer 3)**
+  - IP (IPv4/IPv6): estrutura de cabeçalho, IP Spoofing, fragmentação
+  - ICMP: tipos de mensagens, ICMP Tunneling, Smurf Attack
+  - ARP: estrutura, ARP Spoofing/Poisoning, detecção
+- **Camada de Transporte (Layer 4)**
+  - TCP: 3-way handshake, SYN Flood, Session Hijacking, port scanning
+  - UDP: UDP Flood, amplification attacks (DNS, NTP, Memcached)
+- **Camada de Aplicação (Layer 7)**
+  - HTTP/HTTPS: Request Smuggling, Slowloris, headers de segurança
+  - DNS: Cache Poisoning, DNS Tunneling, DNSSEC, enumeration
+  - SSH: brute force, hardening, tunneling para pivoting
+- **Protocolos de Segurança**
+  - TLS/SSL: handshake, vulnerabilidades (Heartbleed, POODLE), configuração segura
+- **Análise de Tráfego**
+  - tcpdump: filtros BPF avançados
+  - Wireshark: display filters, análise de anomalias
+- **RFCs essenciais** organizadas por camada
+- **Ferramentas** para instalação e testes
+- **CTFs e Labs** para prática
+
 ## 🎯 Público Alvo
 
 Estes documentos são destinados a:
@@ -203,12 +225,13 @@ Open Source - Livre para uso educacional e profissional
 
 ## 📊 Resumo Rápido
 
-| Documento | Páginas | Foco | Nível |
-|-----------|---------|------|-------|
-| Modelos OSI/TCP-IP | ~1460 linhas | Teoria + Prática | Todos |
-| Configuração de Rede | ~1730 linhas | Configuração | Intermediário |
-| Ferramentas de Rede | ~1700 linhas | Ferramentas | Intermediário/Avançado |
-| Acesso Remoto | ~1500 linhas | SSH, VNC, RDP | Todos |
+| Documento | Foco | Nível |
+|-----------|------|-------|
+| Modelos OSI/TCP-IP | Teoria + Prática | Todos |
+| Protocolos de Rede | **Segurança de Protocolos** | Intermediário/Avançado |
+| Configuração de Rede | Configuração | Intermediário |
+| Ferramentas de Rede | Ferramentas | Intermediário/Avançado |
+| Acesso Remoto | SSH, VNC, RDP | Todos |
 
 ## 🚀 Quick Start
 
